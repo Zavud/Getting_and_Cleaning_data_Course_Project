@@ -10,7 +10,7 @@ The initial raw dataset provide the following variables for each activity:
       * tBodyGyroJerk-XYZ
       * tBodyAccMag
       * tGravityAccMag
-      * tBodyAccJerkMag
+      * tBodyAccJerkMag 
       * tBodyGyroMag
       * tBodyGyroJerkMag
       * fBodyAcc-XYZ
