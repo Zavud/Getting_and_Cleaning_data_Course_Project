@@ -1,5 +1,12 @@
+#download and unzip the initial data
+if(!file.exists("./data")){dir.create("./data")}
+fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+download.file(fileUrl,destfile="./data/zipdata.zip",method="curl")
+unzip(zipfile="./data/Dataset.zip",exdir="./data")
+
 #set your working directory to where the UCI HAR Dataset is
 setwd("...\\UCI HAR Dataset") # ... is your working directory
+
 
 #load the dplyr package for later use
 require(dplyr)
